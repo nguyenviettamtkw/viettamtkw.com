@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #bda9a9;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+nav ul li {
+    margin-right: 10px;
+    color: white;
+}
+
+nav li:hover {
+    background-color: rgb(53, 139, 50);
+    height: 20px;
+    padding: 10px
+}
+
+.logo {
+    width: 60px;
+    height: 70px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 20px 15px 10px 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(85, 105, 36);
+    color: rgb(85, 105, 36);
+    text-shadow: 0px 5px 10px;
+}
+main{
+    padding: 50px;
+    background-image: url(./rr.jpg);
+    background-size: cover;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p, h2,h3{text-align: center;}
+.section h2{
+    margin: 0 0 20px;
+}
+.khoa 
+{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.anh
+{
+    
+    width: 25px;
+    height: 350px;
+}
+.phim{
+    width: calc(33.33%-20%);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.phim img
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    border: 10px;
+}
+.phim h3{
+    margin: 0;
+}
+.phim p{
+    margin: 10px 0;
+}
+.phim  button{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email
+{
+    margin-left: 74px;
+}
+#message
+{
+    margin-left: 52px;
+}
+section form button{
+    margin-left: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 366px ;
+}
+footer {
+    background-color: rgb(160, 12, 118);
+    color: rgb(12, 4, 4);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.body nav{
+    border-radius: 20px;
+}
+.anh{
+    height: 100px;
+    width: 100px;
+}
+.dangki{
+    color: rgb(121, 202, 83);
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+}
+.dangnhap{
+    color: rgb(121, 202, 83);
+    border-radius: 3px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+
+}
+.phim button{
+    background-color: darkgray;
+    color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #151315;
+
+   text-shadow: 0px 0px 10px green
+}
+.phim span2{
+    color: yellow;
+}
+.anh{
+    height: 200px;
+    width: 10px;
+    border: 2px solid green;
+}
+.phim h3{
+   color: rgb(22, 20, 20);
+    text-shadow: 0px 5px 10px;;
+}
+.hic{
+    color: antiquewhite;
+     text-shadow: 0px 5px 10px;
+    color: rgb(202, 112, 112);
+    border: #151315;
+     
+}
+.phim image{
+    border: 10px solid black;
+}
+.anh2{
+    border-top: 3px solid rgb(94, 54, 167);
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-sizing: 2px;
+}
+.hiu{
+    color: rgb(0, 0, 0);
+     text-shadow: 0px 5px 10px;
+    color: rgb(0, 0, 0);
+    border: #151315;
+    text-align: left;
+}
